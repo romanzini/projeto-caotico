@@ -11,7 +11,9 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
-const chave = "AKIA5L3DP4PBTAABXFNO"
-const chave_secreta = "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"
+//const chave = "AKIA5L3DP4PBTAABXFNO"
+//const chave_secreta = "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"
+
+console.log("Codigo hackeado")
 
 app.listen(PORT, () => console.log(`Aplicação em execução na porta ${PORT}`));
